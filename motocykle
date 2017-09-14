@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+
+<body>
+   <p> JEstem spoko ziomkiem</p>
+    
+    <a href="landing_page.html"> Wróc</a>
+    
+</body>
+</html>

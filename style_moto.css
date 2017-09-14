@@ -1,0 +1,152 @@
+
+body{
+    
+ 
+
+   background-image: url("pics/road_background_2.jpg");
+    background-size:auto;
+    
+}
+
+   *{
+        border-radius: 18px;
+    }
+
+
+    div#main{
+		width:  1200px;
+        margin: 0 auto;
+        background-color: rgba(255,255,255, 0.6);
+        box-shadow: 0px 0px 20px gray;
+        float: right;
+	}
+	
+
+	div#header{
+        
+        float: left;
+		width:100%;
+		height:300px;
+		background-color: green;
+        background-image: url("pics/vintage_bike_3.jpg");
+        
+        background-size: 1200px 300px;
+        //background-position: center left;  
+        display: table;
+	}
+
+	div#header h1{
+        font-family: 'Ubuntu', fantasy;
+        font-size: 48px;
+        display: table-cell;
+        color: aliceblue;
+        text-align: center;
+        vertical-align: middle;
+        text-shadow: 0px 0px 20px #fff;
+        }
+
+	div#sidebar{
+		width:25%;
+		height:600px;
+        float: left;
+	}
+
+     div#sidebar a{
+        background-color: skyblue;
+         display: block;
+         padding: 10px 5px;
+         margin: 1px;
+         text-decoration: none;
+         border-radius: 10px;
+         text-align: center;
+}
+
+     div#sidebar a#index{
+        background-color: #4789B3;
+                 color: white;
+   
+}
+
+        div#sidebar a:visited {
+        color: gray;
+        }
+    
+    div#sidebar a:hover,  div#sidebar a#index:hover {
+        background-color: aqua
+    }
+	
+	div#content{
+        float: right    ;
+		width:75%;
+        display: inline;
+		background-color: none;
+	}
+
+	div#content *{
+        padding: 10px 50px;
+        text-align: justify;	
+	}
+
+    div#content img{
+        width: 600px;
+        height: 350px;
+        display: inli;
+        margin: 2px auto;
+        
+    }
+    
+    
+    
+  div#content img#ja {
+        width: auto;
+      float: right;;
+      display: inline;
+            }
+
+ div#content p#ja_opis {
+     font: verdana;
+      float: left;
+    }
+
+    div#content p{
+    text-indent: 10px;
+}
+    div#content iframe{
+        display: block;
+        margin: 2px auto;
+            }
+	
+    div#footer{
+        clear: both;
+        margin-bottom: 40px;
+        width:100%;
+		height:100px;
+		background-color: turquoise;
+        display: table;
+
+        text-align: center;
+        vertical-align: middle;
+
+        
+}
+    div#footer p{
+        color:#fff;
+        display: table-cell;
+        vertical-align: middle;
+                text-align: center;
+	}
+	
+    div.fixed {
+        font-size: 12px;
+        position: fixed;
+        bottom: 0px;
+        right: 0px;
+        border: 3px solid #73ad21;
+        background-color: #eee;
+        padding: 3px;
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+	}
+	
+	
